@@ -55,14 +55,14 @@
           </div>
         </div>
         <div class="navbar-center hidden md:hidden lg:flex  ">
-          <ul class="menu menu-horizontal px-1 text-base text-[#737373]  gap-6">
-            <li
-              class="hover:text-[#494949] hover:font-bold hover:transition duration-300 ease-in-out  hover:border-none">
-              <a>Home</a></li>
-            <li class="hover:text-[#494949] hover:font-bold transition duration-300 ease-in-out "><a>Service</a></li>
-            <li class="hover:text[#494949] hover:font-bold transition duration-300 ease-in-out"><a>Portfolio</a></li>
-            <li class="hover:text-[#494949] hover:font-bold transition duration-300 ease-in-out"><a>Blogs</a></li>
-            <li class="hover:text-[#494949] hover:font-bold  transition duration-300 ease-in-out"><a>Contact Us</a></li>
+          <ul class="menu menu-horizontal px-1 text-base text-[#737373]  gap-6 *:mr-3">
+            <li class="hover:text-[#494949]  font-bold hover:transition duration-300 ease-in-out  hover:border-none">
+              <a>Home</a>
+            </li>
+            <li class="hover:text-[#494949]  transition duration-300 ease-in-out "><a>Service</a></li>
+            <li class="hover:text[#494949]   transition duration-300 ease-in-out"><a>Portfolio</a></li>
+            <li class="hover:text-[#494949]   transition duration-300 ease-in-out"><a>Blogs</a></li>
+            <li class="hover:text-[#494949]    transition duration-300 ease-in-out"><a>Contact Us</a></li>
           </ul>
         </div>
         <div class="navbar-end">
@@ -90,7 +90,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
             </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
               <li class="hover:text-[#494949] hover:font-semibold  transition duration-300 ease-in-out "><a>Service</a>
               </li>
               <li class="hover:text[#494949] hover:font-semibold  transition duration-300 ease-in-out"><a>Portfolio</a>
@@ -106,7 +106,7 @@
     <!-- nav container ends -->
 
     <!-- banner section start -->
-    <section class=" text-center px-[43px] space-y-6 mb-10">
+    <section class=" text-center px-[43px] space-y-6 mb-10 mx-auto">
       <!-- banner img -->
       <div class="  text-center flex justify-center">
         <img src="./assets/banner.png" alt="">
@@ -132,16 +132,15 @@
 
 
   <main>
-
-    <section class="bg-[#F4F4F4] mx-auto">
+    <section class="bg-[#F4F4F4] px-5">
       <!-- design thoughtful section start -->
-      <div class="container grid md:grid-cols-2 gap-9 mx-auto lg:mt-[120px] lg:mb-[115px] lg:pt-24 lg:pb-28 p-5">
+      <div class=" container grid md:grid-cols-2 gap-9 mx-auto  lg:mb-[115px] lg:pt-24   ">
         <!-- left site start -->
         <div>
-          <div class="relative">
-            <span class="  mt-8"><img class="hidden lg:flex absolute -top-14 -left-10 " src="./assets/Vector.png"
+          <div class="relative ">
+            <span class="mt-8"><img class="hidden lg:flex absolute -top-14 -left-10 " src="./assets/Vector.png"
                 alt=""></span>
-            <div class="text-center lg:text-left">
+            <div class="text-center lg:text-left mt-8 lg:mt-0">
               <a
                 class=" bg-white  text-[#494949]   w-32 py-1 px-3 hover:text-gray-500     rounded-3xl  text-base font-bold ">
                 <i
@@ -167,6 +166,7 @@
                   to meet the unique needs of businesses.</p>
               </div>
             </div>
+
             <div class="flex gap-3 lg:items-center mt-6 bg-white p-6 rounded-2xl">
               <div>
                 <img src="./assets/residential.png" alt="">
@@ -183,13 +183,87 @@
         <!-- left site ends -->
 
         <!-- right site start -->
-        <div>
-          <img src="./assets/Rectangle.png" alt="">
+        <div class="w-full">
+          <img class="w-full lg:h-[545px]" src="./assets/Rectangle.png" alt="">
         </div>
         <!-- right site ends -->
       </div>
       <!-- design thoughtful section ends -->
+
+      <!-- review container start -->
+      <div class="container mx-auto bg-white mt-20 grid grid-cols-1 lg:grid-cols-4 gap-6 p-5 md:w-full rounded-3xl">
+        <!-- review car 1 -->
+        <div class="text-center space-y-1">
+          <p><i class="fa-solid fa-message text-3xl  text-[#a39e9e]"></i></p>
+          <h2 class="lg:text-4xl text-2xl font-extrabold">235+</h2>
+          <p class="text-base font-md text-[#737373]">Happy Client Review</p>
+        </div>
+
+        <!-- review card 2 -->
+        <div class="text-center space-y-1 ">
+          <p><i class=" fa-solid fa-clipboard text-3xl text-[#a39e9e]"></i></p>
+          <h2 class=" lg:text-4xl text-2xl font-extrabold">55+</h2>
+          <p class="text-base font-md text-[#737373]">Work Departments</p>
+        </div>
+        <!-- review card 3 -->
+        <div class="text-center space-y-1">
+          <p><i class="fa-solid fa-users text-3xl text-[#a39e9e]"></i></p>
+          <h2 class="lg:text-4xl text-2xl font-extrabold">300k+</h2>
+          <p class="text-base font-md text-[#737373]">Our Happy Client</p>
+        </div>
+        <!-- review card 4 -->
+        <div class="text-center space-y-1">
+          <p><i class=" fill-orange-50 fa-solid fa-user-group text-3xl text-[#a39e9e]"></i></p>
+          <h2 class="lg:text-4xl text-2xl font-extrabold">700+</h2>
+          <p class="text-base font-md text-[#737373]">Staff Members</p>
+        </div>
+      </div>
+      <!-- review container ends -->
+
+      <!-- Our Works Process container start -->
+        <div class=" container mx-auto mt-12 lg:mt-24 grid justify-center text-center ">
+          <div class="items-center flex flex-col">
+            <a class=" bg-white  text-[#494949] mb-4 w-32 py-1 px-3 hover:text-gray-500 rounded-3xl  text-base font-bold ">
+              <i
+                class="fa-solid fa-arrow-right text-black hover:text-gray-500   transition duration-300 ease-in-out"></i>
+              About Us
+            </a>
+            <h2 class="mb-6 text-[#212121] text-4xl font-bold">Our Works Process</h2>
+            <p class="lg:w-3/6 text-center mb-8 text-[#494949] font-medium">At the heart of our success lies a well-defined and efficient work process. We begin by understanding your unique needs and vision.</p>
+          </div>
+          <!-- our works card section -->
+          <div class="grid grid-cols-1 lg:grid-cols-4  gap-6">
+            <!-- card 1 -->
+             <div class="space-y-3 p-6 bg-[#E7C1D3] rounded-2xl">
+              <p><img src="./assets/concept.png" alt=""></p>
+              <h4 class="text-left text-[#1C1C1C] text-xl font-extrabold">Concept</h4>
+              <p class="text-left text-[#494949] text-base font-medium">Our concept is rooted in the belief that every project begins with a powerful idea</p>
+             </div>
+             <!-- card 2 -->
+             <div class="space-y-3 p-6 bg-[#EFDA6E] rounded-2xl gap-6">
+              <p><img src="./assets/flow-chart.png" alt=""></p>
+              <h4 class="text-left text-[#1C1C1C] text-xl font-extrabold">Design Process</h4>
+              <p class="text-left text-[#494949] text-base font-medium">  We begin by understanding your needs, goals, and vision.</p>
+             </div>
+             <!-- card 3 -->
+             <div class="space-y-3 p-6 bg-[#A4DAC3] rounded-2xl gap-6">
+              <p><img src="./assets/vision.png" alt=""></p>
+              <h4 class="text-left text-[#1C1C1C] text-xl font-extrabold">Supervision</h4>
+              <p class="text-left text-[#494949] text-base font-medium">  From the initial groundwork to the final touches, we closely monitor each phase.</p>
+             </div>
+             <!-- card 4 -->
+             <div class="space-y-3 p-6 bg-[#77AAEA] rounded-2xl gap-6">
+              <p><img src="./assets/budget-planning.png" alt=""></p>
+              <h4 class="text-left text-[#1C1C1C] text-xl font-extrabold">Budget Planning</h4>
+              <p class="text-left text-[#494949] text-base font-medium">Effective budget planning is the cornerstone of any successful project.  </p>
+             </div>
+          </div>
+
+        </div>
+      
+        <!-- Our Works Process container start -->
     </section>
+
   </main>
 
 
