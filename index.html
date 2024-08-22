@@ -25,12 +25,11 @@
             'bg-btn-primary': '#ABEF5F',
 
           }
-              backgroundColor: {
-            'bg-color': 'linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);'
-          }
+           
+      }
         }
       }
-    }
+    
   </script>
 
   <title>Interior</title>
@@ -42,9 +41,9 @@
 </style>
 
 <body class="manrope">
-  <header class="container mx-auto mt-8 md:mt-16 ">
+  <header class="bg-gradient-to-t from-[#FFFFFF] to-[#f3f0f0]">
     <!-- nav container start -->
-    <nav class="grid items-center hidden ">
+    <nav class="grid items-center container mx-auto pt-8 md:mt-16 hidden ">
       <div class="navbar bg-base-100">
         <div class="navbar-start  ">
           <div class="flex justify-center items-center left-0 ">
@@ -106,7 +105,7 @@
     <!-- nav container ends -->
 
     <!-- banner section start -->
-    <section class=" text-center px-[43px] space-y-6 mb-10 mx-auto">
+    <section class=" text-center px-[43px] space-y-6 mb-10 lg:mb-24 container mx-auto lg:pt-14">
       <!-- banner img -->
       <div class="  text-center flex justify-center">
         <img src="./assets/banner.png" alt="">
@@ -129,7 +128,6 @@
     </section>
     <!-- banner section ends -->
   </header>
-
 
   <main>
     <section class="bg-[#F4F4F4] px-5">
@@ -332,7 +330,7 @@
         <p class="lg:w-5/12 text-center text-[#494949] font-medium text-sm lg:text-base mb-6 lg:mb-0">Stay informed with the latest trends, insights, and updates from the world of design and architecture. Our articles and news provide valuable perspectives on emerging styles, innovative techniques, and industry developments.  </p>
       </div>
       <!-- Read our card container -->
-       <div class="container mx-auto grid grid-cols-1 lg:grid-cols-3 p-5 gap-6 lg:mt-8">
+       <div class="container mx-auto grid grid-cols-1 lg:grid-cols-3 p-5 gap-6 lg:mt-8 lg:pb-24">
         <!-- card-1 -->
         <div class="card bg-base-100 w-full  shadow-xl p-6  rounded-2xl">
             <img
@@ -344,7 +342,7 @@
             <p><i class="fa-regular fa-circle-user mr-3"></i>By Admin</p>
            </div>
            <h2 class="text-xl font-extrabold text-[#494949] mb-2">How to choose the furniture right  of your home.</h2>
-           <p class="text-[#737373] font-medium text-sm mb-3">The barn house captivates with its blend of rustic charm and modern. </p>
+           <p class="text-[#737373] font-medium text-sm mb-3">Selecting the perfect furniture for your home is essential to creating a comfortable and stylish living space. </p>
            <a><button
             class="   text-[#212121] hover:text-orange-500 text-lg font-bold transition duration-1000 ease-in-out">
             View Details <i
@@ -361,7 +359,7 @@
           <p><i class="fa-regular fa-circle-user mr-3"></i>By Admin</p>
          </div>
          <h2 class="text-xl font-extrabold text-[#494949] mb-2">How to choose the furniture right  of your home.</h2>
-         <p class="text-[#737373] font-medium text-sm mb-3">The barn house captivates with its blend of rustic charm and modern. </p>
+         <p class="text-[#737373] font-medium text-sm mb-3">Start by considering your room's layout, size, and natural lighting. Opt for pieces that complement.</p>
          <a><button
           class="   text-[#212121] hover:text-orange-500 text-lg font-bold transition duration-1000 ease-in-out">
           View Details <i
@@ -378,7 +376,7 @@
         <p><i class="fa-regular fa-circle-user mr-3"></i>By Admin</p>
        </div>
        <h2 class="text-xl font-extrabold text-[#494949] mb-2">How to choose the furniture right  of your home.</h2>
-       <p class="text-[#737373] font-medium text-sm mb-3">The barn house captivates with its blend of rustic charm and modern. </p>
+       <p class="text-[#737373] font-medium text-sm mb-3">By balancing aesthetics with practicality, you can create and inviting environment that reflects your personal taste.</p>
        <a><button
         class="   text-[#212121] hover:text-orange-500 text-lg font-bold transition duration-1000 ease-in-out">
         View Details <i
@@ -387,10 +385,38 @@
        </div>
     </section>
     <!-- Read our Articles section ends -->
+
+    <!-- Let’s Discuss section start -->
+     <section class=" ">
+
+     </section>
+     <!-- Let’s Discuss section start -->
   </main>
 
-
-  <footer></footer>
+    <footer class="footer footer-center bg-black  text-white rounded  lg:py-24 py-16 ">
+      <div class="items-center flex flex-col px-8 lg:px-0  ">
+        <div class="flex justify-center items-center lg:mb-4">
+          <i
+            class="fa-solid fa-arrow-right bg-[#ABEF5F] text-black -rotate-45 p-2 rounded-full hover:bg-gray-500  hover:text-white  transition duration-300 ease-in-out"></i>
+          <a
+            class="btn btn-ghost lg:text-3xl font-extrabold  hover:text-blue-900 transition duration-300 ease-in-out text-2xl">Rinterio</a>
+        </div>
+        <p class="lg:w-5/12 w-full text-center text-[#494949] font-medium text-sm lg:text-base mb-0 lg:mb-0">Stay informed with the latest trends, insights, and updates from the world of design and architecture. Our articles and news provide valuable perspectives on emerging styles, innovative techniques, and industry developments.  </p>
+      </div>
+     
+      <nav class="grid gap-8 px-8 lg:px-0 lg:gap-24 text-base lg:my-12 *:text-[#E9E9E9] grid-cols-1 lg:grid-cols-5">
+        <a class="hover:text-cyan-300 transition duration-500 ease-in-out cursor-pointer">Home</a>
+        <a class="cursor-pointer hover:text-cyan-300 transition duration-500 ease-in-out">Services</a>
+        <a class="cursor-pointer hover:text-cyan-300 transition duration-500 ease-in-out">Portfolio</a>
+        <a class="cursor-pointer hover:text-cyan-300 transition duration-500 ease-in-out">Blogs</a>
+        <a class="cursor-pointer hover:text-cyan-300 transition duration-500 ease-in-out">Contact Us</a>
+      </nav>
+        <a
+          class="lg:mb-4 w-10/12  lg:px-4 lg:py-1   justify-center px-12 py-2 text-center text-[#1C1C1C]   bg-[#ABEF5F] hover:text-white hover:bg-[#a9e466b9]    rounded-3xl  text-base font-bold transition duration-300 ease-in-out hover:border-[#5255e0b9] flex">
+          Book Consult
+          <i class="fa-solid fa-arrow-right hover:text-gray-500   transition duration-300 ease-in-out bg-black text-white p-2 rounded-full -rotate-45"></i>
+        </a>
+  </footer>
 
 </body>
 
