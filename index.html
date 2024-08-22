@@ -19,7 +19,12 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'bg-btn-primary': '#ABEF5F',
+              
               }
+              backgroundColor: {
+                    'bg-color':'linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);'
+                }
             }
           }
         }
@@ -32,14 +37,83 @@
     font-family: "Manrope", sans-serif;
 }
 </style>
-<body>
+<body class="manrope">
     <!-- header section start -->
-    <header>
+    <header class="container mx-auto mt-8 md:mt-16">
         <!-- nav container start -->
-         <nav>
+         <nav class="grid items-center ">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start  ">
+                  <div class="flex justify-center items-center left-0 ">
+                      <i class="fa-solid fa-arrow-right bg-[#ABEF5F] text-black -rotate-45 p-2  rounded-full hover:bg-gray-500  hover:text-white  transition duration-300 ease-in-out"></i>                   
+                  <a class="btn btn-ghost text-3xl font-extrabold  hover:text-blue-900 transition duration-300 ease-in-out">Rinterio</a>
+                  </div>
+                </div>
+                <div class="navbar-center hidden md:hidden lg:flex  ">
+                  <ul class="menu menu-horizontal px-1 text-base text-[#737373]  gap-6">
+                    <li class="hover:text-[#494949] hover:font-bold hover:transition duration-300 ease-in-out  hover:border-none"><a>Home</a></li>
+                    <li class="hover:text-[#494949] hover:font-bold transition duration-300 ease-in-out "><a>Service</a></li>
+                    <li class="hover:text[#494949] hover:font-bold transition duration-300 ease-in-out"><a>Portfolio</a></li>
+                    <li class="hover:text-[#494949] hover:font-bold transition duration-300 ease-in-out"><a>Blogs</a></li>
+                    <li class="hover:text-[#494949] hover:font-bold  transition duration-300 ease-in-out"><a>Contact Us</a></li>     
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <!-- search and shopping icons start-->
+                      <a><i class="fa-solid fa-magnifying-glass  bg-white border text-[#737373]    mr-3 p-3  rounded-full  hover:bg-gray-400   hover:text-white  transition duration-300 ease-in-out"></i></a>
+                     <a><i class="fa-solid fa-cart-shopping  bg-white border text-[#737373] mr-3 p-3 fill-none rounded-full hover:bg-gray-400  hover:text-white  transition duration-300 ease-in-out"></i></a>
+                    <!-- search and shopping icons ends -->
 
+                    <!-- btn book consult and arrow icons start  -->
+                    <a class="btn bg-[#ABEF5F] px-5 py-0 text-center items-center rounded-[32px]  text-md font-bold hover:text-blue-900 hidden md:flex  "> Book Consult 
+                      <i class="fa-solid fa-arrow-right bg-black text-white -rotate-45 p-2  rounded-full hover:bg-gray-500  hover:text-[#ABEF5F]  transition duration-300 ease-in-out"></i>
+                        </a> 
+                       <!-- btn book consult and arrow icons ends  -->
+
+                    <!-- sm device dropdown menu start -->
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h8m-8 6h16" />
+                          </svg>
+                        </div>
+                        <ul  tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li class="hover:text-[#494949] hover:font-semibold  transition duration-300 ease-in-out "><a>Service</a></li>
+                            <li class="hover:text[#494949] hover:font-semibold  transition duration-300 ease-in-out"><a>Portfolio</a></li>
+                            <li class="hover:text-[#494949] hover:font-semibold  transition duration-300 ease-in-out"><a>Blogs</a></li>
+                            <li class="hover:text-[#494949] hover:font-semibold  transition duration-300 ease-in-out"><a>Contact Us</a></li>
+                    </div>
+                    <!-- sm device dropdown menu ends -->
+                </div>
          </nav>
          <!-- nav container ends -->
+
+         <!-- banner section start -->
+          <section class="  border text-center px-[43px] space-y-6">
+            <!-- banner img -->
+             <div class="  text-center flex justify-center border">
+                <img src="./assets/banner.png" alt="">
+             </div>
+             <!-- banner content -->
+              <div class="flex flex-col justify-center items-center border text-center">
+                <h1 class="lg:text-6xl text-3xl text-[#212121] font-extrabold lg:w-2/3 ">A barn house of this design has a striking appearance</h1>
+                <p class="lg:text-base text-sm text-[#4949494] lg:w-2/3  lg:mt-6 mt-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <!-- banner btn -->
+                <a class="btn  bg-[#ABEF5F 50%] px-5 py-0 text-center items-center rounded-[32px]  text-xl font-bold hover:text-blue-900 hidden md:flex  "> Book Consult 
+                  <i class="fa-solid fa-arrow-right bg-black text-white -rotate-45 p-2  rounded-full hover:bg-gray-500  hover:text-[#ABEF5F]  transition duration-300 ease-in-out"></i>
+                    </a> 
+              </div>
+          </section>
+        <!-- banner section ends -->
          
     </header>
     <!-- header section ends -->
