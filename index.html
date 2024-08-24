@@ -15,23 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- custom font and theme -->
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-            'bg-btn-primary': '#ABEF5F',
-
-          }
-           
-      }
-        }
-      }
-    
-  </script>
-
+  
   <title>Interior</title>
 </head>
 <style>
@@ -41,16 +25,16 @@
 </style>
 
 <body class="manrope">
-  <header class="bg-gradient-to-t from-[#FFFFFF] to-[#f3f0f0]">
+  <header class="bg-gradient-to-t from-[#FFFFFF] to-[#fcfbfb]">
     <!-- nav container start -->
-    <nav class="grid items-center container mx-auto pt-8 md:mt-16 hidden ">
-      <div class="navbar bg-base-100">
+    <nav class="grid items-center container mx-auto pt-8 px-5 ">
+      <div class="navbar">
         <div class="navbar-start  ">
-          <div class="flex justify-center items-center left-0 ">
+          <div class="flex justify-center items-center space-x-2 cursor-pointer ">
             <i
               class="fa-solid fa-arrow-right bg-[#ABEF5F] text-black -rotate-45 p-2  rounded-full hover:bg-gray-500  hover:text-white  transition duration-300 ease-in-out"></i>
             <a
-              class="btn btn-ghost text-3xl font-extrabold  hover:text-blue-900 transition duration-300 ease-in-out">Rinterio</a>
+              class=" text-3xl font-extrabold  hover:text-blue-900 transition duration-300 ease-in-out">Rinterio</a>
           </div>
         </div>
         <div class="navbar-center hidden md:hidden lg:flex  ">
@@ -64,17 +48,17 @@
             <li class="hover:text-[#494949]    transition duration-300 ease-in-out"><a>Contact Us</a></li>
           </ul>
         </div>
-        <div class="navbar-end">
+        <div class="navbar-end ">
           <!-- search and shopping icons start-->
           <a><i
-              class="fa-solid fa-magnifying-glass  bg-white border text-[#737373]    mr-3 p-3  rounded-full  hover:bg-gray-400   hover:text-white  transition duration-300 ease-in-out"></i></a>
+              class="fa-solid fa-magnifying-glass  bg-white border text-[#737373] hidden md:flex mr-3 p-3  rounded-full  hover:bg-gray-400   hover:text-white  transition duration-300 ease-in-out"></i></a>
           <a><i
-              class="fa-solid fa-cart-shopping  bg-white border text-[#737373] mr-3 p-3 fill-none rounded-full hover:bg-gray-400  hover:text-white  transition duration-300 ease-in-out"></i></a>
+              class="fa-solid fa-cart-shopping md:flex hidden bg-white border text-[#737373] mr-3 lg:mr-3 p-3 fill-none rounded-full hover:bg-gray-400  hover:text-white  transition duration-300 ease-in-out"></i></a>
           <!-- search and shopping icons ends -->
 
           <!-- btn book consult and arrow icons start  -->
           <a
-            class="btn bg-[#ABEF5F] px-5 py-0 text-center items-center rounded-[32px]  text-md font-bold hover:text-blue-900 hidden md:flex  ">
+            class="btn bg-[#ABEF5F] px-5 py-0 text-center items-center rounded-full mr-2 text-md font-bold hover:text-blue-900 hidden md:flex  ">
             Book Consult
             <i
               class="fa-solid fa-arrow-right bg-black text-white -rotate-45 p-2  rounded-full hover:bg-gray-500  hover:text-[#ABEF5F]  transition duration-300 ease-in-out"></i>
@@ -83,13 +67,13 @@
 
           <!-- sm device dropdown menu start -->
           <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
+            <div tabindex="0" role="button" class=" px-2 py-2 bg-white  rounded-full lg:hidden flex justify-end border">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
             </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+            <ul tabindex="0" class="menu menu-sm dropdown-content -ml-40 bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
               <li class="hover:text-[#494949] hover:font-semibold  transition duration-300 ease-in-out "><a>Service</a>
               </li>
               <li class="hover:text[#494949] hover:font-semibold  transition duration-300 ease-in-out"><a>Portfolio</a>
@@ -119,8 +103,8 @@
           that flood the space with natural light.</p>
         <!-- banner btn -->
         <a
-          class="btn mt-8 bg-[#ABEF5F80] border border-[#acf757d8] px-5 py-0 text-center items-center rounded-[32px]  text-xl font-bold hover:text-blue-900 w-full  md:flex lg:w-[220px]">
-          Book Consult
+          class="btn mt-8 bg-[#ABEF5F80] border border-[#acf757d8]  py-0 text-center items-center rounded-[32px]  text-xl font-bold hover:text-blue-900 w-full    md:w-[220px]">
+          View Details
           <i
             class="fa-solid fa-arrow-right bg-[#a2ff38]  text-white -rotate-45 p-2  rounded-full hover:bg-gray-500  hover:text-[#ABEF5F]  transition duration-300 ease-in-out"></i>
         </a>
@@ -132,20 +116,20 @@
   <main>
     <section class="bg-[#F4F4F4] px-5">
       <!-- design thoughtful section start -->
-      <div class=" container grid md:grid-cols-2 gap-9 mx-auto  lg:mb-[115px] lg:pt-24   ">
+      <div class=" container grid lg:grid-cols-2 gap-9 mx-auto  lg:mb-[115px] lg:pt-24 ">
         <!-- left site start -->
         <div>
           <div class="relative ">
-            <span class="mt-8"><img class="hidden lg:flex absolute -top-14 -left-10 " src="./assets/Vector.png"
+            <span class="mt-8"><img class=" hidden lg:flex absolute -top-14 -left-10" src="./assets/Vector.png"
                 alt=""></span>
-            <div class="text-center lg:text-left mt-8 lg:mt-0 ">
+            <div class="text-center lg:text-left mt-8 lg:mt-0">
               <a
-                class=" bg-white  text-[#494949]   w-32 py-1 px-3 hover:text-gray-500     rounded-3xl  text-base font-bold ">
+                class=" bg-white  text-[#494949]   w-32 py-1 px-3 hover:text-gray-500 hover:outline-cyan-300 hover:outline transition duration-100 ease-in-out rounded-3xl  text-base font-bold ">
                 <i
                   class="fa-solid fa-arrow-right text-black hover:text-gray-500   transition duration-300 ease-in-out"></i>
                 About Us
               </a>
-              <h2 class="lg:text-4xl text-2xl font-bold lg:w-3/4 text-[#212121] mt-4 mb-6 ">We design thoughtful,
+              <h2 class="lg:text-4xl text-2xl font-bold lg:w-3/4 w-11/12 text-[#212121] mt-4 mb-6 ">We design thoughtful,
                 liveable spaces
               </h2>
               <p class="lg:text-base text-sm text-[#494949]">Our mission is to create spaces that blend form and
@@ -155,7 +139,7 @@
             </div>
 
             <!-- card content start -->
-            <div class="flex gap-3 lg:items-center mt-6 bg-white p-6 rounded-2xl
+            <div class="flex gap-3 lg:items-center mt-6 bg-white p-6 rounded-2xl 
                 ">
               <div>
                 <img src="./assets/commercial.png" alt="">
@@ -184,17 +168,17 @@
 
         <!-- right site start -->
         <div class="w-full">
-          <img class="w-full lg:h-[545px]" src="./assets/Rectangle.png" alt="">
+          <img class="w-full lg:h-[545px] h-[300px]" src="./assets/Rectangle.png" alt="">
         </div>
         <!-- right site ends -->
       </div>
       <!-- design thoughtful section ends -->
 
       <!-- review container start -->
-      <div class="container mx-auto bg-white mt-20 grid grid-cols-1 lg:grid-cols-4 gap-6 p-5 md:w-full rounded-3xl">
+      <div class="container mx-auto bg-white md:mt-20 mt-12 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6  py-10 md:w-full rounded-3xl">
         <!-- review car 1 -->
         <div class="text-center space-y-1">
-          <p><i class="fa-solid fa-message text-3xl  text-[#a39e9e]"></i></p>
+          <p><i class="fa-solid fa-message text-3xl  text-[#a39e9e] "></i></p>
           <h2 class="lg:text-4xl text-2xl font-extrabold">235+</h2>
           <p class="text-base font-md text-[#737373]">Happy Client Review</p>
         </div>
@@ -224,7 +208,7 @@
       <div class=" container mx-auto mt-12 lg:mt-24 grid justify-center text-center ">
         <div class="items-center flex flex-col">
           <a
-            class=" bg-white  text-[#494949] mb-4 w-32 py-1 px-3 hover:text-gray-500 rounded-3xl  text-base font-bold ">
+            class=" bg-white  text-[#494949] mb-4 w-32 py-1 px-3 rounded-3xl cursor-pointer hover:text-cyan-500 text-base font-bold transition duration-300 ease-in-out">
             <i class="fa-solid fa-arrow-right text-black hover:text-gray-500   transition duration-300 ease-in-out"></i>
             About Us
           </a>
@@ -234,7 +218,7 @@
             vision.</p>
         </div>
         <!-- our works card section -->
-        <div class="grid grid-cols-1 lg:grid-cols-4  gap-6 lg:pb-24">
+        <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6 lg:pb-24">
           <!-- card 1 -->
           <div class="space-y-3 p-6 bg-[#E7C1D3] rounded-2xl">
             <p><img src="./assets/concept.png" alt=""></p>
@@ -267,8 +251,9 @@
       </div>
       <!-- Our Works Process container ends -->
     </section>
+
     <!-- Our Latest Portfolio section start -->
-    <section class="lg:mt-24 container mx-auto bg-[#F4F4F4] lg:bg-white lg:mb-24">
+    <section class="lg:mt-24 container mx-auto bg-[#F4F4F4] lg:bg-white lg:mb-14">
       <div class="items-center flex flex-col pt-11 lg:pt-0 px-5">
         <a
           class="text-[#494949] mb-4 w-[234px] py-1 text-center border  bg-[#ABEF5F33] hover:text-gray-500 hover:bg-[#a9e466b9]    rounded-3xl  text-base font-bold transition duration-300 ease-in-out hover:border-[#5255e0b9] ">
@@ -276,11 +261,11 @@
           Explore our Latest works
         </a>
         <h2 class="mb-6 text-[#212121] text-2xl lg:text-4xl font-bold">Our Latest Portfolio</h2>
-        <p class="lg:w-3/6 text-center mb-8 text-[#494949] font-medium text-sm lg:text-base ">  Each portfolio piece reflects our passion for creating spaces that are not only visually stunning but also functional and tailored to meet the unique needs of our clients.</p>
+        <p class="lg:w-3/6 md:w-4/6 text-center mb-8 text-[#494949] font-medium text-sm lg:text-base ">  Each portfolio piece reflects our passion for creating spaces that are not only visually stunning but also functional and tailored to meet the unique needs of our clients.</p>
       </div>
       <div class="grid lg:grid-cols-12 lg:grid-rows-2 gap-6 lg:h-[610px] p-5">
-        <div class="lg:flex lg:col-span-8 col-span-12 border bg-white rounded-2xl p-6 gap-8 lg:flex-row ">
-          <div class="lg:w-4/12 w-full"><img class="  h-full w-full" src="./assets/img1.png" alt=""></div>
+        <div class="lg:flex lg:col-span-8 md:col-span-12 md:flex col-span-12 border bg-white rounded-2xl p-6 gap-8 lg:flex-row order-1">
+          <div class="lg:w-4/12 md:w-8/12 w-full"><img class="  h-full w-full" src="./assets/img1.png" alt=""></div>
           <div class="text-left lg:w-8/12 w-full  ">
             <h4 class="text-2xl font-extrabold text-[#494949] mt-6 lg:mt-0">Commercial</h4>
             <p class="text-base font-medium text-[#737373] mt-4 ">Our commercial designs are crafted to enhance
@@ -293,34 +278,122 @@
                   class="fa-solid fa-arrow-right bg-[#a2ff38]  text-black -rotate-45 p-2  rounded-full hover:bg-gray-500  hover:text-[#ABEF5F]  transition duration-300 ease-in-out ml-2"></i></button></a>
           </div>
         </div>
-        <div class="lg:col-span-4 col-span-12 border rounded-2xl p-6 bg-white">
-          <div><img class=" w-full h-full lg:h-[225px]" src="./assets/img2.png" alt=""></div>
+        <div class="lg:col-span-4 col-span-12 md:col-span-6 border rounded-2xl p-6 bg-white order-2 ">
+          <div><img class=" w-full h-full lg:h-[225px] md:h-[239px]" src="./assets/img2.png" alt=""></div>
           <div></div>
         </div>
-        <div class="lg:col-span-3 col-span-12 border p-6 rounded-2xl bg-white">
+        <div class="lg:col-span-3 col-span-12 md:col-span-6 border p-6 rounded-2xl bg-white order-5 lg:order-3">
           <div><img class="w-full  h-full lg:h-[225px] " src="./assets/img3.png" alt=""></div>
         </div>
-        <div class="lg:flex lg:col-span-6 col-span-12 border rounded-2xl p-6 gap-8 bg-white">
-          <div><img class=" w-full lg:h-[225px]" src="./assets/img4.png" alt=""></div>
-          <div class="text-left lg:w-6/12 ">
-            <h4 class="text-2xl font-extrabold text-[#494949] lg:mt-0 mt-6">Commercial</h4>
+        <div class="lg:flex lg:col-span-6 md:flex col-span-12 border rounded-2xl p-6 gap-8 bg-white order-4">
+          <div><img class=" w-full lg:h-[225px] md:h-[245px]" src="./assets/img4.png" alt=""></div>
+          <div class="text-left lg:w-6/12 md:w-3/6">
+            <h4 class="text-2xl font-extrabold text-[#494949] lg:mt-0 mt-6 md:mt-0">Commercial</h4>
             <p class="text-base font-medium text-[#737373] mt-4   "> We understand the unique challenges and
               opportunities of commercial spaces, from offices and retail stores to restaurants and hotels. </p>
             <a><button
-                class="lg:mt-10 mt-5 text-[#212121] hover:text-orange-500 text-xl font-extrabold transition duration-1000 ease-in-out">
+                class="lg:mt-10 md:mt-16 mt-5 text-[#212121] hover:text-orange-500 text-xl font-extrabold transition duration-1000 ease-in-out">
                 View Details <i
                   class="fa-solid fa-arrow-right bg-[#a2ff38]  text-black -rotate-45 p-2  rounded-full hover:bg-gray-500  hover:text-[#ABEF5F]  transition duration-300 ease-in-out ml-2"></i></button></a>
           </div>
         </div>
-        <div class=" flex lg:col-span-3 col-span-12  border p-5  rounded-2xl bg-white">
-          <div><img class=" lg:w-[322px] w-[382px]  h-full" src="./assets/img5.png" alt=""></div>
+        <div class=" flex lg:col-span-3 md:col-span-6 col-span-12  border p-5  rounded-2xl bg-white order-3 lg:order-5">
+          <div><img class=" lg:w-[322px] w-[400px]  h-full" src="./assets/img5.png" alt=""></div>
+        </div>
+        <div class=" flex lg:col-span-3 md:col-span-6 col-span-12  border p-5 rounded-2xl bg-white lg:hidden order-6">
+          <div><img class=" lg:w-[322px] w-[400px]  h-full" src="./assets/img5.png" alt=""></div>
         </div>
     </section>
     <!-- Our Latest Portfolio section ends -->
 
+   <!-- Challenging Section start -->
+   <section class=" container mx-auto px-5 mb-2 mt-5 lg:mt-0 lg:mb-20 md:mb-0 md:h-aut0">
+    <div class="items-center flex flex-col lg:pt-0 px-5 md:hidden lg:flex">
+      <h2 class="mb-6 text-[#212121] text-2xl lg:text-4xl font-bold">Architecture Developed</h2>
+      <p class="lg:w-3/6 md:w-4/6 text-center mb-8 text-[#494949] font-medium text-sm lg:text-base ">  Each portfolio piece reflects our passion for creating spaces that are not only visually stunning but also functional and tailored to meet the unique needs of our clients.</p>
+    </div>
+    <div class=" justify-between lg:flex gap-5 md:flex ">
+       
+      <div class="grid grid-cols-4 grid-rows-4 md:grid-cols-4 md:grid-rows-1 gap-2 lg:gap-4 lg:w-6/12 lg:h-[700px]  h-[900px]">
+        <div class="lg:h-full  w-full bg-gradient-to-t from-green-50 to-green-300 lg:col-span-2 lg:row-span-2 col-span-4  row-span-1 rounded-2xl md:hidden lg:flex" >  
+          <img class="lg:h-full w-full h-full rounded-2xl md:h-[300px]" src="./challenging-img/new-design-1.png" alt="">
+        </div>
+        <div class=" w-full lg:col-span-2 col-span-4 hidden lg:flex " >
+          <img class="w-full h-full rounded-2xl" src="./challenging-img/7.jpg" alt="">
+        </div>
+        <div class=" col-span-4 md:col-span-2 lg:col-span-1 w-full hidden lg:flex ">
+           <img class=" w-full h-full rounded-2xl " src="./challenging-img/small-house.jpg" alt="">
+          </div>
+        <div class="  w-full hidden lg:flex" >
+        <img class="w-full h-full rounded-2xl" src="./challenging-img/4.webp" alt="">
+        </div>
+        <div class="lg:col-span-2 col-span-4 md:col-span-2 md:hidden lg:flex"  >
+           <img class="h-full w-full rounded-2xl" src="./challenging-img/4.jpg" alt="">
+        </div>
+        <div class=" w-full lg:col-span-2 lg:row-span-2 col-span-4 md:hidden lg:flex" >
+           <img class="h-full w-full rounded-2xl " src="./challenging-img/3.jpg" alt="">
+          </div>
+        <div class="  lg:col-span-2 col-span-4 md:order-2 md:hidden lg:flex">
+          <img class="w-full h-full rounded-2xl" src="./challenging-img/small2.jpg  " alt="">
+        </div>
+        
+      </div>
+     <!-- collapse section start-->
+      <div class="lg:w-6/12 mt-5 lg:mt-0 h-[850px] lg:h-[700px] flex flex-col  md:h-[700px]   ">
+       <div class="flex">
+        <h2 class="text-3xl font-bold mb-6 lg:mb-11 hover:text-blue-400 transition duration-700 ease-in-out">Common Question</h2>
+        <div class="h-[40px] w-[40px] rotate-180 text-green-400 ml-3 border rounded-full hover:bg-orange-400 hover:text-white transition duration-500 ease-in-out p-2 hover:border-green-500">
+          <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18"></path>
+          </svg>
+        </div>
+       </div>
+      <div class="collapse bg-base-200 lg:mb-12 mb-6">
+        <input type="radio" name="my-accordion-1" checked="checked" />
+        <div class="collapse-title text-xl font-medium">What is the architectural style of the project?</div>
+        <div class="collapse-content">
+          <p> The architectural style of the project is Modernist, characterized by clean lines, minimalistic design, and the use of new materials such as steel and glass. The emphasis is on functional spaces and open floor plans.</p>
+        </div>
+      </div>
+      <div class="collapse bg-base-200 lg:mb-12 mb-6">
+        <input type="radio" name="my-accordion-1" />
+        <div class="collapse-title text-xl font-medium"> What materials are commonly used in contemporary architecture?</div>
+        <div class="collapse-content">
+          <p> Contemporary architecture often uses materials such as concrete, glass, steel, and wood. These materials are chosen for their durability, aesthetic appeal, and ability to create sustainable and energy-efficient buildings.</p>
+        </div>
+      </div>
+      <div class="collapse bg-base-200 lg:mb-12 mb-6">
+        <input type="radio" name="my-accordion-1" />
+        <div class="collapse-title text-xl font-medium">How does the design of this building address environmental concerns?</div>
+        <div class="collapse-content">
+          <p>The building incorporates sustainable design principles such as energy-efficient windows, solar panels, and green roofs. The use of local and recycled materials also helps to minimize the environmental impact.</p>
+        </div>
+      </div>
+      <div class="collapse bg-base-200 lg:mb-12 mb-6 ">
+        <input type="radio" name="my-accordion-1" />
+        <div class="collapse-title text-xl font-medium ">What are the main features of Gothic architecture?</div>
+        <div class="collapse-content">
+          <p>Gothic architecture is characterized by pointed arches, ribbed vaults, flying buttresses, and large stained glass windows. These features allow for taller buildings and more natural light inside the structures.</p>
+        </div>
+      </div>
+      <div class="collapse bg-base-200 lg:mb-11 mb-6">
+        <input type="radio" name="my-accordion-1" />
+        <div class="collapse-title text-xl font-medium ">What are the main features of Gothic architecture?</div>
+        <div class="collapse-content">
+          <p>Gothic architecture is characterized by pointed arches, ribbed vaults, flying buttresses, and large stained glass windows. These features allow for taller buildings and more natural light inside the structures.</p>
+        </div>
+      </div>
+      
+       
+    </div>
+<!-- collapse section start-->
+    </div>
+ </section>
+ <!-- Challenging Section ends -->
+
     <!-- Read Our Articles section start  -->
-    <section class="bg-[#F4F4F4]">
-      <div class="items-center flex flex-col  lg:pt-24 px-5 pt-9 container mx-auto">
+    <section class="bg-[#F4F4F4] md:-mt-44 lg:mt-0">
+      <div class="items-center flex flex-col lg:pt-24 px-5 pt-9 container mx-auto">
         <a
           class="text-[#494949] lg:mb-4  px-4 py-1 text-center border  bg-[#ABEF5F33] hover:text-gray-500 hover:bg-[#a9e466b9]    rounded-3xl  text-base font-bold transition duration-300 ease-in-out hover:border-[#5255e0b9] ">
           <i class="fa-solid fa-arrow-right  text-black hover:text-gray-500   transition duration-300 ease-in-out"></i>
@@ -330,9 +403,9 @@
         <p class="lg:w-3/6 text-wrap text-center text-[#494949] font-medium text-sm lg:text-base mb-6 lg:mb-0">Stay informed with the latest trends, insights, and updates from the world of design and architecture. Our articles and news provide valuable perspectives on emerging styles, innovative techniques, and industry developments.  </p>
       </div>
       <!-- Read our card container -->
-       <div class="container mx-auto grid grid-cols-1 lg:grid-cols-3 p-5 gap-6 lg:mt-8 lg:pb-24">
+       <div class="container mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 p-5 gap-6 lg:mt-8 lg:pb-24">
         <!-- card-1 -->
-        <div class="card bg-base-100 w-full  shadow-xl p-6  rounded-2xl">
+        <div class="card bg-base-100 w-full shadow-xl p-6  rounded-2xl">
             <img
               src="./assets/article1.png"
               alt="Shoes"
@@ -387,53 +460,60 @@
     <!-- Read our Articles section ends -->
 
     <!-- Let’s Discuss section start -->
-     <section class="bg-cyan-200 lg:py-24 py-8">
-      <div class="items-center flex flex-col px-5">
-        <a
-          class="text-[#494949] lg:mb-4  px-4 py-1 text-center border  bg-[#ABEF5F33] hover:text-gray-500 hover:bg-[#a9e466b9]    rounded-3xl  text-base font-bold transition duration-300 ease-in-out hover:border-[#5255e0b9] ">
-          <i class="fa-solid fa-arrow-right  text-black hover:text-gray-500   transition duration-300 ease-in-out"></i>
-          Let’s Connect
-        </a>
-        <h2 class="lg:my-6 text-[#212121] text-2xl lg:text-4xl font-bold">Let’s Discuss Next Project</h2>
-        <p class="lg:w-2/6 text-center text-[#494949] font-medium text-sm lg:text-base mb-6 lg:mb-0">Ready to bring your ideas to life?   we're here to help you every step of the way. Let's collaborate and create something extraordinary together. </p>
-      </div>
-      <div class=" container   mx-auto grid lg:grid-cols-2 grid-cols-1  gap-6 lg:mt-8 lg:w-1/2 px-5">
-        <label class="input input-bordered flex items-center rounded-full col-span-2  lg:col-span-1">
-          
-          <input type="text" class="grow" placeholder="First Name*" />
-        </label>
-        <label class="input input-bordered flex items-center  rounded-full col-span-2 lg:col-span-1">
-          
-          <input type="text" class="grow" placeholder="Last Name*" />
-        </label>
-        <label class="input input-bordered flex items-center  rounded-full col-span-2 lg:col-span-1">
-          <input type="text" class="grow" placeholder="Phone Number*" />    
-        </label>
-        <label class="input input-bordered flex items-center  rounded-full col-span-2 lg:col-span-1">
-          <input type="text" class="grow" placeholder="Email Number*" />
-           
-        </label>
-        <label class="input justify-start items-start p-5 rounded-3xl   col-span-2  lg:h-60 h-52">
+     <section class=" lg:py-24 py-8 my-2 bg-cover bg-no-repeat relative  min-h-[850px] flex justify-center items-center" style="background-image: url(./assets/bg.jpg );">
+      <div class="absolute z-20  ">
+        <div class="items-center flex flex-col px-5">
+          <a
+            class="text-[#494949] lg:mb-4  px-4 py-1 text-center border  bg-[#ABEF5F33] hover:text-gray-500 hover:bg-[#a9e466b9]    rounded-3xl  text-base font-bold transition duration-300 ease-in-out hover:border-[#5255e0b9] ">
+            <i class="fa-solid fa-arrow-right  text-black hover:text-gray-500   transition duration-300 ease-in-out"></i>
+            Let’s Connect
+          </a>
+          <h2 class="lg:my-6 my-3 text-[#212121] text-2xl lg:text-4xl font-bold">Let’s Discuss Next Project</h2>
+          <p class=" lg:w-8/12 md:w-8/12 text-center text-[#494949] font-medium text-sm lg:text-base mb-6 lg:mb-0">Ready to bring your ideas to life?   we're here to help you every step of the way. Let's collaborate and create something extraordinary together. </p>
+        </div>
+        <div class=" container   mx-auto grid lg:grid-cols-2 grid-cols-1 md:grid-cols-2  gap-6 lg:mt-8  px-5">
+          <label class="input hover:outline-cyan-300 hover:outline transition duration-500 ease-in-out flex items-center rounded-full col-span-2  lg:col-span-1 md:col-span-1">
+            
+            <input class="border-white" type="text" class="grow" placeholder="First Name*" />
+          </label>
+          <label class="input   flex items-center  rounded-full col-span-2 lg:col-span-1 md:col-span-1 hover:outline-cyan-300 hover:outline transition duration-500 ease-in-out">
+            
+            <input type="text" class="grow" placeholder="Last Name*" />
+          </label>
+          <label class="input   flex items-center  rounded-full col-span-2 lg:col-span-1 md:col-span-1 hover:outline-cyan-300 hover:outline transition duration-500 ease-in-out">
+            <input type="text" class="grow" placeholder="Phone Number*" />    
+          </label>
+          <label class="input  flex items-center  rounded-full col-span-2 lg:col-span-1 md:col-span-1 hover:outline-cyan-300 hover:outline transition duration-500 ease-in-out">
+            <input type="text" class="grow" placeholder="Email Number*" />
+             
+          </label>
+          <label class="input justify-start items-start p-5 rounded-3xl h-52  col-span-2  lg:h-60  hover:outline-cyan-300 hover:outline transition duration-500 ease-in-out">
           <input type="text" class="grow" placeholder="Write your message here" />
-           
-        </label>
+             
+          </label>
+          <a
+          class=" items-center justify-center gap-3 col-span-2 py-2 text-[#1C1C1C] font-extrabold  bg-[#ABEF5F] hover:text-white hover:bg-[#a9e466b9] rounded-3xl  text-base transition duration-300 ease-in-out hover:border-[#5255e0b9] flex">
+          Send Mail
+          <i class="fa-solid fa-arrow-right hover:text-gray-500   transition duration-300 ease-in-out bg-black text-white p-2 rounded-full -rotate-45"></i>
+        </a>
+        </div>
       </div>
      </section>
      <!-- Let’s Discuss section  ends -->
   </main>
 
-    <footer class="footer footer-center bg-black  text-white rounded  lg:py-24 py-16 ">
-      <div class="items-center flex flex-col px-8 lg:px-0">
-        <div class="flex justify-center items-center lg:mb-4">
+    <footer class="footer footer-center bg-black  text-white  md:py-20  lg:py-24 py-16 ">
+      <div class="items-center flex flex-col px-8 md:px-0 lg:px-0 ">
+        <div class="flex justify-center items-center md:mb-4 lg:mb-4">
           <i
             class="fa-solid fa-arrow-right bg-[#ABEF5F] text-black -rotate-45 p-2 rounded-full hover:bg-gray-500  hover:text-white  transition duration-300 ease-in-out"></i>
           <a
             class="btn btn-ghost lg:text-3xl font-extrabold  hover:text-blue-900 transition duration-300 ease-in-out text-2xl">Rinterio</a>
         </div>
-        <p class="lg:w-5/12 w-full text-center text-[#494949] font-medium text-sm lg:text-base mb-0 lg:mb-0">Stay informed with the latest trends, insights, and updates from the world of design and architecture. Our articles and news provide valuable perspectives on emerging styles, innovative techniques, and industry developments.  </p>
+        <p class="lg:w-5/12 md:w-6/12 md:mb-0 w-full text-center text-[#494949] font-medium text-sm lg:text-base mb-0 lg:mb-0">Stay informed with the latest trends, insights, and updates from the world of design and architecture. Our articles and news provide valuable perspectives on emerging styles, innovative techniques, and industry developments.  </p>
       </div>
      
-      <nav class="grid gap-8 px-8 lg:px-0 lg:gap-24 text-base lg:my-12 *:text-[#E9E9E9] grid-cols-1 lg:grid-cols-5">
+      <nav class="grid gap-8 px-8 lg:px-0 lg:gap-24 md:gap-12 text-base lg:my-12 md:my-10 md:grid-cols-5 *:text-[#E9E9E9] grid-cols-1 lg:grid-cols-5">
         <a class="hover:text-cyan-300 transition duration-500 ease-in-out cursor-pointer">Home</a>
         <a class="cursor-pointer hover:text-cyan-300 transition duration-500 ease-in-out">Services</a>
         <a class="cursor-pointer hover:text-cyan-300 transition duration-500 ease-in-out">Portfolio</a>
@@ -441,12 +521,11 @@
         <a class="cursor-pointer hover:text-cyan-300 transition duration-500 ease-in-out">Contact Us</a>
       </nav>
         <a
-          class="lg:mb-4 w-10/12 lg:w-auto lg:px-4 lg:py-1   justify-center  text-center text-[#1C1C1C]   bg-[#ABEF5F] hover:text-white hover:bg-[#a9e466b9]    rounded-3xl  text-base font-bold transition duration-300 ease-in-out hover:border-[#5255e0b9] flex">
+          class="lg:mb-4 w-10/12 lg:w-auto lg:px-4 py-1 md:w-auto md:px-4  justify-center  text-center text-[#1C1C1C]   bg-[#ABEF5F] hover:text-white hover:bg-[#a9e466b9]    rounded-3xl  text-base font-bold transition duration-300 ease-in-out hover:border-[#5255e0b9] flex">
           Book Consult
           <i class="fa-solid fa-arrow-right hover:text-gray-500   transition duration-300 ease-in-out bg-black text-white p-2 rounded-full -rotate-45"></i>
         </a>
   </footer>
 
 </body>
-
 </html>
